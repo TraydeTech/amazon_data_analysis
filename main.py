@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 # importar dados e fazer limpeza
-df = pd.read_csv('amazon_prime_titles.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/TraydeTech/amazon_data_analysis/main/amazon_prime_titles.csv')
 df.columns = ['id', 'tipo', 'titulo',
               'diretor', 'elenco',
               'pais','data', 'ano',
